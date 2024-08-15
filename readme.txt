@@ -3,7 +3,6 @@ Version 2.1 Author Oliver Farthing
 Prerequisites
 Root Folder: Ensure that the root folder is located at C:\gamsync.
 GAM Advanced: A functional version of "GAM Advanced" must be installed in the directory C:\gamadv-xtd3.#
-Logging: Its normal to see error like this "ERROR: Header "primaryEmail" not found..." This just means no updates where found for the sync function to action.
 
 Components (Essential files for this service)
 gamsync_mastersync.BAT: Initiates a new synchronisation process.
@@ -19,7 +18,7 @@ Changes
 NXTS query added, new query which has updated framework. Improveing response times.
 
 30/07/24 - Version 2.0
-Redesigned the script to handle each query independently, allowing each query to manage its own validator arrays separately. This adjustment supports the "activemailbox" function, which operates independently of any domain-specific logic. Additionally, i have moved the exporting functionality to a separate batch file (mastersync.bat). This change separates data processing from data exporting, improving the modularity and maintainability of the script. Each query now handles its own data processing, and the mastersync.bat file takes care of exporting the results. This separation ensures better flexibility and organization in the script’s operation.
+Redesigned the script to handle each query independently, allowing each query to manage its own validator arrays separately. This adjustment supports the "activemailbox" function, which operates independently of any domain-specific logic. Additionally, i have moved the exporting functionality to a separate batch file (mastersync.bat). This change separates data processing from data exporting, improving the modularity and maintainability of the script. Each query now handles its own data processing, and the mastersync.bat file takes care of exporting the results. This separation ensures better flexibility and organization in the scriptâ€™s operation.
 
 
 
